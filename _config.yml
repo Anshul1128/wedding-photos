@@ -1,5 +1,5 @@
 # Base configs
-baseurl: "https://clicks.anshul-aashita.life"
+# baseurl: "https://clicks.anshul-aashita.life"
 #baseurl: "" # Comment the above line and uncomment this to test the website locally
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
@@ -14,8 +14,10 @@ header:
  subtitle: "by Anshul Thakkar"
 footer:
  name: "Hey there, my name is Anshul"
- bio: "I am a developer and a tech aficionado from India."
-web_design: "AJ"
+ bio: "I am a DataOps Engineer and a tech aficionado from India."
 # Configure which exif data to display
 # Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
 exif: '[{"tag": "Model", "icon": "camera-retro"}, {"tag": "FNumber", "icon": "dot-circle-o"}, {"tag": "ExposureTime", "icon": "clock-o"}, {"tag": "ISOSpeedRatings", "icon": "info-circle"}]'
+social_urls:
+  linkedin: "https://in.linkedin.com/in/anshul-thakkar"
+  github: "https://www.github.com/Anshul1128"
