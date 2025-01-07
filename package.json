@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rampatra/photography.git"
+    "url": "git+https://github.com/Anshul1128/wedding-photos.git"
   },
   "keywords": [
     "photography",
@@ -19,19 +19,24 @@
     "portfolio",
     "portfolio website"
   ],
-  "author": "Ram Patra",
+  "author": "Anshul Thakkar",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/rampatra/photography/issues"
+    "url": "https://github.com/Anshul1128/wedding-photos/issues"
   },
-  "homepage": "https://github.com/rampatra/photography#readme",
+  "homepage": "https://github.com/Anshul1128/wedding-photos#readme",
   "devDependencies": {
     "del": "^4.1.1",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-image-resize": "^0.13.1",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^5.0.0",
     "gulp-uglify": "^3.0.0",
     "sass": "^1.25.0"
+  },
+  "dependencies": {
+    "cross-spawn": "^7.0.5",
+    "gm": "^1.22.0",
+    "ms": "^2.1.3"
   }
 }
